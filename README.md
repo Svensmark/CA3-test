@@ -1,4 +1,4 @@
-
+﻿
 [![Build Status](https://travis-ci.org/asgerhs/CA-3.svg?branch=master)](https://travis-ci.org/asgerhs/CA-3)
 
   
@@ -47,6 +47,8 @@
 - Create a remote database on the deployment server, with the same name as the first one above (`xxx`)
 
 - Open the file `.travis.yml` and change the script `CREATE DATABASE startcode_test;` to use the same name as the local test-database (`xxx_test`)
+
+- CD into the Frontend folder and open up terminal and run "npm install"
 
 ### Setup CI-control (Let Maven deploy when BUILD and TESTS are GREEN &#x1F49A;)
 
